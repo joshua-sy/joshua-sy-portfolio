@@ -1,0 +1,35 @@
+.skill-title {
+  font-size: 1.75em;
+  font-weight: 700;
+  /* text-align: center;
+  margin-top: 1em; */
+}
+
+.line {
+  border-color: #3F8EFC;
+}
+
+.skillsList {
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Start slightly offset */
+  transition: opacity 1s ease-out, transform 0.6s ease-out; /* Smooth transition */
+}
+
+.skillsList.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Slide into place */
+}
+
+
+.skill-text {
+  font-size: 1.25rem;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+  font-weight: 400;
+}
+
+.skill-text:hover {
+  transform: scale(1.1); 
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #F5F5F5; 
+  font-weight: 700; 
+}

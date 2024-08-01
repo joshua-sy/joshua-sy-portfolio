@@ -1,0 +1,105 @@
+#contact-page {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* height: auto; */
+  padding: 5% 0% 10% 0%;
+  height: 100%;
+  min-height: 100%;
+}
+#contact-title {
+  text-align: center;
+  padding: 2%;
+}
+
+#contact-email {
+  text-align: center;
+  color: #3F8EFC;
+  font-size: 3em;
+}
+
+#contact-know-me-better {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+#contact-socials-container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+/* .socials-text {
+  font-size: 1.5em;
+
+} */
+
+.socials-text {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem; 
+  gap: 0.5rem; 
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.socials-link {
+  text-decoration: none;
+  color: inherit; 
+  padding: 0; 
+  margin: 0; 
+  background: none; 
+  border: none; 
+  outline: none; 
+  display: inline-flex; 
+  align-items: center; 
+}
+
+.socials-link:hover {
+  color: #3F8EFC;
+}
+
+#copy-icon {
+  color: #F5F5F5;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+#copy-icon:hover {
+  color: #3F8EFC;
+}
+
+@media screen and (max-width: 768px) {
+  /* #contact-socials-container {
+    flex-direction: column;
+    gap: 1em;
+  } */
+
+  #contact-email {
+    font-size: 1.5em;
+  }
+
+  #contact-know-me-better {
+    font-size: 1em;
+  }
+
+  .socials-text {
+    font-size: 1em;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+
+
+  #contact-page{
+    height: 100%;
+    min-height: 100%;
+  }
+  
+}
